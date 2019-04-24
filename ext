@@ -1,0 +1,2 @@
+#!/bin/sh
+code --user-data-dir /user --extensions-dir /ext --install-extension $2
