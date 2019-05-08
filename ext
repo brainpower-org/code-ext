@@ -1,2 +1,3 @@
 #!/bin/sh
-code --user-data-dir /user --extensions-dir /ext --install-extension $2
+mkdir -p /root/.local/share/code-server/
+code --user-data-dir /root/.local/share/code-server/ --extensions-dir /root/.local/share/code-server/extensions --install-extension $2
